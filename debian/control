@@ -2,17 +2,17 @@ Source: kpeople
 Section: libs
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cmake,
-               debhelper (>= 9.0.0),
-               extra-cmake-modules (>= 1.7.0),
-               libkf5coreaddons-dev,
-               libkf5i18n-dev,
-               libkf5itemviews-dev,
-               libkf5service-dev,
-               libkf5widgetsaddons-dev,
-               pkg-kde-tools,
-               qtbase5-dev,
-               qtdeclarative5-dev
+Build-Depends: cmake (>= 2.8.12~),
+               debhelper (>= 9),
+               extra-cmake-modules (>= 1.8.0~),
+               libkf5coreaddons-dev (>= 5.8.0~),
+               libkf5i18n-dev (>= 5.8.0~),
+               libkf5itemviews-dev (>= 5.8.0~),
+               libkf5service-dev (>= 5.8.0~),
+               libkf5widgetsaddons-dev (>= 5.8.0~),
+               pkg-kde-tools (>> 0.15.15),
+               qtbase5-dev (>= 5.2.0~),
+               qtdeclarative5-dev (>= 5.2.0~)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kpeople
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/kpeople.git
