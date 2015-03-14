@@ -1,5 +1,5 @@
-usr/include/KF5/KPeople/*
-usr/lib/*/cmake/KF5People/*
+usr/include/KF5/KPeople/
+usr/lib/*/cmake/KF5People/
 usr/lib/*/libKF5People.so
 usr/lib/*/libKF5PeopleBackend.so
 usr/lib/*/libKF5PeopleWidgets.so
