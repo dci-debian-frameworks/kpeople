@@ -1,5 +1,5 @@
-kpeople (5.8.0-0ubuntu1) UNRELEASED; urgency=medium
+kpeople (5.8.0-0ubuntu1) vivid; urgency=medium
 
   * Initial release.
 
- -- Harald Sitter <sitter@kde.org>  Wed, 11 Mar 2015 15:44:33 +0100
+ -- Harald Sitter <sitter@kde.org>  Tue, 17 Mar 2015 15:41:05 +0100
