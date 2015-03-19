@@ -21,7 +21,10 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kpeople.git
 Package: libkf5people-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5people5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5people5 (= ${binary:Version}),
+         libkf5peoplebackend5 (= ${binary:Version}),
+         libkf5peoplewidgets5 (= ${binary:Version}),
+         ${misc:Depends}
 Description: development files for kpeople
  KPeople offers unified access to our contacts from different sources, grouping
  them by person while still exposing all the data.
