@@ -1,4 +1,4 @@
-kpeople (5.8.0-1~) UNRELEASED; urgency=medium
+kpeople (5.8.0-1) experimental; urgency=medium
 
   [ Harald Sitter ]
   * Initial release.
@@ -6,4 +6,4 @@ kpeople (5.8.0-1~) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Prepare initial Debian release.
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 14 Mar 2015 11:52:13 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Mar 2015 11:38:46 +0100
