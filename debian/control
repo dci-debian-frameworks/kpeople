@@ -37,8 +37,10 @@ Description: development files for kpeople
 
 Package: libkf5people-data
 Architecture: all
-Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkpeople3
+Replaces: libkpeople3
 Description: data files for kpeople
  KPeople offers unified access to our contacts from different sources, grouping
  them by person while still exposing all the data.
@@ -111,8 +113,8 @@ Description: framework providing unified access to contacts aggregated by person
  This package is part of KDE Frameworks 5.
 
 Package: libkf5people-dbg
-Priority: extra
 Section: debug
+Priority: extra
 Architecture: any
 Multi-Arch: same
 Depends: libkf5people5 (= ${binary:Version}), ${misc:Depends}
