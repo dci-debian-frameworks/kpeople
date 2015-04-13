@@ -1,4 +1,4 @@
-kpeople (5.9.0-0ubuntu1) UNRELEASED; urgency=medium
+kpeople (5.9.0-0ubuntu1) vivid; urgency=medium
 
   [ Harald Sitter ]
   * Refine dev package to depend on all create libraries as the cmake
@@ -10,7 +10,7 @@ kpeople (5.9.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * Add upstream_rename-tranlations.diff to fix translations
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Apr 2015 11:03:43 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 13 Apr 2015 22:30:51 +0200
 
 kpeople (5.8.0-0ubuntu1) vivid; urgency=medium
 
