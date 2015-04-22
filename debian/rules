@@ -6,4 +6,5 @@ override_dh_strip:
 	$(overridden_command) --dbg-package=libkf5people-dbg
 
 override_dh_auto_test:
-	dbus-launch --exit-with-session $(overridden_command)
+	# Disable auto test at build time, fakeroot breaks them
+	:
