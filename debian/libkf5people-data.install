@@ -2,4 +2,4 @@ usr/share/kf5/kpeople/dummy_avatar.png
 usr/share/kservicetypes5/kpeople_data_source.desktop
 usr/share/kservicetypes5/kpeople_plugin.desktop
 usr/share/kservicetypes5/persondetailsplugin.desktop
-usr/share/locale/*/LC_MESSAGES/libkpeople.mo
+usr/share/locale/*/LC_MESSAGES/kpeople5.mo
