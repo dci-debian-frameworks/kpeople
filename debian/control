@@ -43,8 +43,6 @@ Package: libkf5people-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkpeople3
-Replaces: libkpeople3
 Description: data files for kpeople
  KPeople offers unified access to our contacts from different sources, grouping
  them by person while still exposing all the data.
