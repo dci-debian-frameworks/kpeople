@@ -1,9 +1,9 @@
-kpeople (5.9.0-1~) UNRELEASED; urgency=medium
+kpeople (5.9.0-1) experimental; urgency=medium
 
   * Add breaks/replaces with libkpeople3.
   * New upstream release (5.9.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 16 Apr 2015 10:21:17 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 08:26:01 +0200
 
 kpeople (5.9.0-0ubuntu1) vivid; urgency=medium
 
