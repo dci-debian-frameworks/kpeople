@@ -2,18 +2,22 @@ Source: kpeople
 Section: libs
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cmake,
-               debhelper (>= 9.0.0),
-               extra-cmake-modules (>= 1.7.0),
-               libkf5coreaddons-dev,
-               libkf5i18n-dev,
-               libkf5itemviews-dev,
-               libkf5service-dev,
-               libkf5widgetsaddons-dev,
-               pkg-kde-tools,
-               qtbase5-dev,
-               qtdeclarative5-dev
+Uploaders: Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake (>= 2.8.12~),
+               dbus-x11,
+               debhelper (>= 9),
+               extra-cmake-modules (>= 5.10.0~),
+               libkf5coreaddons-dev (>= 5.10.0~),
+               libkf5i18n-dev (>= 5.10.0~),
+               libkf5itemviews-dev (>= 5.10.0~),
+               libkf5service-dev (>= 5.10.0~),
+               libkf5widgetsaddons-dev (>= 5.10.0~),
+               libqt5sql5-sqlite,
+               pkg-kde-tools (>> 0.15.15),
+               qtbase5-dev (>= 5.4),
+               qtdeclarative5-dev (>= 5.4)
 Standards-Version: 3.9.6
+XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/frameworks/kpeople
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/kpeople.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kpeople.git
@@ -38,8 +42,8 @@ Description: development files for kpeople
 
 Package: libkf5people-data
 Architecture: all
-Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: data files for kpeople
  KPeople offers unified access to our contacts from different sources, grouping
  them by person while still exposing all the data.
@@ -112,8 +116,8 @@ Description: framework providing unified access to contacts aggregated by person
  This package is part of KDE Frameworks 5.
 
 Package: libkf5people-dbg
-Priority: extra
 Section: debug
+Priority: extra
 Architecture: any
 Multi-Arch: same
 Depends: libkf5people5 (= ${binary:Version}), ${misc:Depends}
