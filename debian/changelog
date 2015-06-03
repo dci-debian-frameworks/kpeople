@@ -7,7 +7,7 @@ kpeople (5.10.0-0ubuntu1) wily; urgency=medium
   [ Jonathan Riddell ]
   * New upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 03 Jun 2015 20:19:25 +0200
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 03 Jun 2015 20:32:16 +0200
 
 kpeople (5.9.0-1) experimental; urgency=medium
 
