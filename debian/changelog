@@ -1,8 +1,12 @@
-kpeople (5.14.0-0ubuntu1) UNRELEASED; urgency=medium
+kpeople (5.15.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * Vivid backport
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 29 Sep 2015 17:01:43 -0700
+  [ Jonathan Riddell ]
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 Oct 2015 20:50:44 +0100
 
 kpeople (5.14.0-0ubuntu1) wily; urgency=medium
 
