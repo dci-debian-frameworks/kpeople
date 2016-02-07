@@ -115,18 +115,3 @@ Description: framework providing unified access to contacts aggregated by person
  provided in user interfaces by providing QML and Qt Widgets components.
  .
  This package is part of KDE Frameworks 5.
-
-Package: libkf5people-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Multi-Arch: same
-Depends: libkf5people5 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for kpeople
- KPeople offers unified access to our contacts from different sources, grouping
- them by person while still exposing all the data.
- .
- Furthermore, KPeople will also provide facilities to integrate the data
- provided in user interfaces by providing QML and Qt Widgets components.
- .
- This package contains the debug symbols.
