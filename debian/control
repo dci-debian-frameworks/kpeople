@@ -14,7 +14,6 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5widgetsaddons-dev (>= 5.19.0~),
                libqt5sql5-sqlite,
                pkg-kde-tools (>> 0.15.15),
-               qt5-qmltooling-plugins,
                qtbase5-dev (>= 5.4),
                qtdeclarative5-dev (>= 5.4)
 Standards-Version: 3.9.6
