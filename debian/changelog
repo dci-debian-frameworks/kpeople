@@ -1,6 +1,6 @@
-kpeople (5.20.0-1~1.gbpa1555b) UNRELEASED; urgency=medium
+kpeople (5.20.0-1~2.gbpf9481a) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @a1555b7daa20bffef3f2391d35ac656bc93e70a9 **
+  ** SNAPSHOT build @f9481a73fa0587d66ae20cbb32d3897f95e5cb80 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -13,8 +13,9 @@ kpeople (5.20.0-1~1.gbpa1555b) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
+  * Update acc test script
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 30 Mar 2016 10:57:33 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:57:15 +0200
 
 kpeople (5.19.0-1) experimental; urgency=medium
 
