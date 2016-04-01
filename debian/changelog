@@ -1,3 +1,21 @@
+kpeople (5.20.0-1~1.gbpa1555b) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @a1555b7daa20bffef3f2391d35ac656bc93e70a9 **
+
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Drop qt5-qmltooling-plugins build dependency
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 30 Mar 2016 10:57:33 +0200
+
 kpeople (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
