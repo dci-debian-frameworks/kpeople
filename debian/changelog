@@ -1,6 +1,6 @@
-kpeople (5.21.0-1~1.gbpcbb10e) UNRELEASED; urgency=medium
+kpeople (5.21.0-1~2.gbp328e8d) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @cbb10ee6d03f159dcfc5cd4f118faa907b81661f **
+  ** SNAPSHOT build @328e8d5c7714027ab0c0157e15c4385f896f46c3 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -11,6 +11,7 @@ kpeople (5.21.0-1~1.gbpcbb10e) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
 
   [ Maximiliano Curia ]
   * Update acc test script
@@ -19,7 +20,7 @@ kpeople (5.21.0-1~1.gbpcbb10e) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 10 Apr 2016 03:57:08 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 07 May 2016 21:27:36 +0200
 
 kpeople (5.19.0-1) experimental; urgency=medium
 
