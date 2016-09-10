@@ -1,3 +1,11 @@
+kpeople (5.26.0-1~1.gbp679247) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @6792476c0395497b69e16d7aa4ca70bab7e2ba9e **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 15:57:35 +0200
+
 kpeople (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
