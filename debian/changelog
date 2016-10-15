@@ -1,10 +1,12 @@
-kpeople (5.27.0-1~1.gbp0d6c4c) UNRELEASED; urgency=medium
+kpeople (5.27.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @0d6c4cd2666c0377bbbf77d2a625c2fb0d35d692 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 08 Oct 2016 15:57:25 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (5.27)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 15 Oct 2016 17:04:27 +0200
 
 kpeople (5.26.0-1) unstable; urgency=medium
 
