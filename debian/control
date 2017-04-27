@@ -27,6 +27,7 @@ Architecture: any
 Depends: libkf5people5 (= ${binary:Version}),
          libkf5peoplebackend5 (= ${binary:Version}),
          libkf5peoplewidgets5 (= ${binary:Version}),
+         qtbase5-dev,
          ${misc:Depends}
 Description: development files for kpeople
  KPeople offers unified access to our contacts from different sources, grouping
