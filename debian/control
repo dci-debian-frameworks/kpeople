@@ -6,7 +6,9 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 3.0~),
                dbus-x11,
                debhelper (>= 9),
+               doxygen,
                extra-cmake-modules (>= 5.37.0~),
+               graphviz,
                libkf5coreaddons-dev (>= 5.37.0~),
                libkf5i18n-dev (>= 5.37.0~),
                libkf5itemviews-dev (>= 5.37.0~),
@@ -15,30 +17,12 @@ Build-Depends: cmake (>= 3.0~),
                libqt5sql5-sqlite,
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.7.0~),
-               qtdeclarative5-dev (>= 5.7.0~)
+               qtdeclarative5-dev (>= 5.7.0~),
+               qttools5-dev-tools (>= 5.4),
 Standards-Version: 4.0.0
 Homepage: https://projects.kde.org/projects/frameworks/kpeople
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kpeople.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kpeople.git
-
-Package: libkf5people-dev
-Section: libdevel
-Architecture: any
-Depends: libkf5people5 (= ${binary:Version}),
-         libkf5peoplebackend5 (= ${binary:Version}),
-         libkf5peoplewidgets5 (= ${binary:Version}),
-         qtbase5-dev (>= 5.7.0~),
-         ${misc:Depends}
-Description: development files for kpeople
- KPeople offers unified access to our contacts from different sources, grouping
- them by person while still exposing all the data.
- .
- Furthermore, KPeople will also provide facilities to integrate the data
- provided in user interfaces by providing QML and Qt Widgets components.
- .
- This package is part of KDE Frameworks 5.
- .
- This package contains the development files.
 
 Package: libkf5people-data
 Architecture: all
@@ -57,12 +41,62 @@ Description: data files for kpeople
  .
  This package contains the data files.
 
+Package: libkf5people-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5people5 (= ${binary:Version}),
+         libkf5peoplebackend5 (= ${binary:Version}),
+         libkf5peoplewidgets5 (= ${binary:Version}),
+         qtbase5-dev (>= 5.7.0~),
+         ${misc:Depends},
+Recommends: libkf5people-doc (= ${source:Version})
+Description: development files for kpeople
+ KPeople offers unified access to our contacts from different sources, grouping
+ them by person while still exposing all the data.
+ .
+ Furthermore, KPeople will also provide facilities to integrate the data
+ provided in user interfaces by providing QML and Qt Widgets components.
+ .
+ This package is part of KDE Frameworks 5.
+ .
+ This package contains the development files.
+
+Package: libkf5people-doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: framework providing unified access to contacts aggregated by person (documentation)
+ KPeople offers unified access to our contacts from different sources, grouping
+ them by person while still exposing all the data.
+ .
+ Furthermore, KPeople will also provide facilities to integrate the data
+ provided in user interfaces by providing QML and Qt Widgets components.
+ .
+ This package is part of KDE Frameworks 5.
+ .
+ This package contains the qch documentation files.
+
+Package: libkf5people5
+Architecture: any
+Multi-Arch: same
+Depends: libkf5people-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: framework providing unified access to contacts aggregated by person
+ KPeople offers unified access to our contacts from different sources, grouping
+ them by person while still exposing all the data.
+ .
+ Furthermore, KPeople will also provide facilities to integrate the data
+ provided in user interfaces by providing QML and Qt Widgets components.
+ .
+ This package is part of KDE Frameworks 5.
+
 Package: libkf5peoplebackend5
 Architecture: any
 Multi-Arch: same
 Depends: libkf5people-data (= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Description: framework providing unified access to contacts aggregated by person
  KPeople offers unified access to our contacts from different sources, grouping
  them by person while still exposing all the data.
@@ -77,7 +111,7 @@ Architecture: any
 Multi-Arch: same
 Depends: libkf5people-data (= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Description: framework providing unified access to contacts aggregated by person
  KPeople offers unified access to our contacts from different sources, grouping
  them by person while still exposing all the data.
@@ -101,18 +135,3 @@ Description: framework providing unified access to contacts aggregated by person
  This package is part of KDE Frameworks 5.
  .
  This package contains the QML module.
-
-Package: libkf5people5
-Architecture: any
-Multi-Arch: same
-Depends: libkf5people-data (= ${source:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: framework providing unified access to contacts aggregated by person
- KPeople offers unified access to our contacts from different sources, grouping
- them by person while still exposing all the data.
- .
- Furthermore, KPeople will also provide facilities to integrate the data
- provided in user interfaces by providing QML and Qt Widgets components.
- .
- This package is part of KDE Frameworks 5.
